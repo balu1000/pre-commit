@@ -1,2 +1,0 @@
-# pre-commit
-pre-commit
