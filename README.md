@@ -1,1 +1,2 @@
-# make
+# actions
+GitHub Actions
