@@ -4,12 +4,12 @@ VERSION=$(shell git describe --tags --abbrev=0)-$(shell git rev-parse --short HE
 TARGETOS=linux
 ifeq ($(TARGETOS), windows)
 	NAME=kbot.exe
-else 
+else
 	NAME=kbot
 endif
 TARGETARCH=amd64
 
-.PHONY: linux linux/arm macos macos/arm windows windows/arm 
+.PHONY: linux linux/arm macos macos/arm windows windows/arm
 
 format:
 	gofmt -s -w ./
@@ -18,8 +18,8 @@ vet:
 	go vet
 
 test:
-	go test -v	
-	
+	go test -v
+
 get:
 	go get
 
