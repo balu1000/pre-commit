@@ -1,2 +1,2 @@
-# actions
-GitHub Actions
+# pre-commit
+pre-commit
